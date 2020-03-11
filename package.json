@@ -1,11 +1,11 @@
 {
-  "name": "zxcvbn",
-  "version": "4.4.2",
-  "description": "realistic password strength estimation",
-  "author": "Dan Wheeler",
+  "name": "@lucasharada/zxcvbn",
+  "version": "4.4.4",
+  "description": "realistic password strength estimation (smaller dictionary)",
+  "author": "Lucas Harada",
   "license": "MIT",
   "main": "lib/main.js",
-  "repository": "dropbox/zxcvbn",
+  "repository": "lucasharada/zxcvbn",
   "scripts": {
     "test": "coffeetape test/*.coffee | faucet",
     "test-saucelabs": "zuul -- test/*.coffee",
